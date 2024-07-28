@@ -1,0 +1,8 @@
+train:
+  - /datashare/HW1/labeled_image_data/images/train
+  - /home/student/HW1_CV/pseudo_data_video1/images
+  - /home/student/HW1_CV/pseudo_data_video2/images
+val: /datashare/HW1/labeled_image_data/images/val
+
+nc: 3  # Number of classes
+names: ['Empty', 'Tweezers', 'Needle_driver']

@@ -84,8 +84,8 @@ model = YOLO(initial_model_path)
 #one_val_pic_path = '/datashare/HW1/labeled_image_data/images/val/e398aed5-frame_2832.jpg'
 def process_and_save_image(frame_name):
     # Define paths
-    pic_path = f'/home/student/HW1_CV/pseudo_data_video1/images/{frame_name}.png'
-    save_path = f'/home/student/HW1_CV/{frame_name}.png'
+    pic_path = f'/datashare/HW1/labeled_image_data/images/val/{frame_name}.jpg'
+    save_path = f'/home/student/HW1_CV/{frame_name}.jpg'
 
     # Predict on the image
     results_list = model(pic_path)
@@ -101,12 +101,8 @@ def process_and_save_image(frame_name):
 
 
 # Example usage
-# process_and_save_image('frame_694')
-# process_and_save_image('frame_881')
-# process_and_save_image('frame_1599')
-# process_and_save_image('frame_1716')
-# process_and_save_image('frame_2183')
-process_and_save_image('video1_frame_129')
+
+process_and_save_image('e398aed5-frame_2832')
 
 
 

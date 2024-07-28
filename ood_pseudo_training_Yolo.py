@@ -3,7 +3,7 @@ from tqdm import tqdm
 import yaml
 from ultralytics import YOLO
 
-#train 19 in runs/detect
+#train 21 in runs/detect
 print(f'load yolo model')
 model = YOLO("yolov8n_pseudo_trained_2.pt")
 results = model.train(data='final_model_data.yaml', epochs=50, imgsz=640, batch=8)# Load the model, no augement

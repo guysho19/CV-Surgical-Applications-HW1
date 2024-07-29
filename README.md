@@ -1,4 +1,3 @@
-\usepackage{hyperref}
 # CV-Surgical-Applications-HW1
 HW1 in the course of Computer Vision Surgical Applications
 Order of files running:
@@ -43,5 +42,5 @@ I also provided my yaml files in the directory yamls. You can access them akso t
    python /home/student/HW1_CV/video.py
 
 ## Model weights link:
-\href{https://www.dropbox.com/scl/fi/owhe3zy6rouup9x0biocs/best.pt?rlkey=czklru2w1lsvrdtjgm790rh2s&st=1h8d5zds&dl=0}{Download best.pt}
+[Download best.pt](https://www.dropbox.com/scl/fi/owhe3zy6rouup9x0biocs/best.pt?rlkey=czklru2w1lsvrdtjgm790rh2s&st=1h8d5zds&dl=0)
 

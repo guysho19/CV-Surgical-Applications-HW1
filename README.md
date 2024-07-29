@@ -21,12 +21,12 @@ I also provided my yaml files in the directory yamls. You can access them akso t
    pip install -r requirements.txt
 3. **Run files according to the order above**
    
-   ### Run the initial training script for YOLO
+   **Run the initial training script for YOLO**
    
-   ```bash
+   bash
    python /home/student/HW1_CV/initial_trained_Yolo.py
    
-   ### Create pseudo labels for ID data
+   **Create pseudo labels for ID data**
    ```bash
    python /home/student/HW1_CV/create_pseudo_labels_id.py
    

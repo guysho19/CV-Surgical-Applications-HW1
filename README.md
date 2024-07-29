@@ -19,7 +19,28 @@ I also provided my yaml files in the directory yamls. You can access them akso t
 2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
-4. **Run files according to the order above**
+3. **Run files according to the order above**
+   \begin{lstlisting}
+# Run the initial training script for YOLO
+python /home/student/HW1_CV/initial_trained_Yolo.py
+
+# Create pseudo labels for ID data
+python /home/student/HW1_CV/create_pseudo_labels_id.py
+
+# Train YOLO with pseudo labels for ID data
+python /home/student/HW1_CV/id_pseudo_training_Yolo.py
+
+# Create pseudo labels for OOD data
+python /home/student/HW1_CV/create_pseudo_labels_ood.py
+
+# Train YOLO with pseudo labels for OOD data
+python /home/student/HW1_CV/ood_pseudo_training_Yolo.py
+
+# Run predictions (use either predict.py or video.py)
+python /home/student/HW1_CV/predict.py
+# or
+python /home/student/HW1_CV/video.py
+\end{lstlisting}
 
 
 ## Model weights link:

@@ -77,8 +77,8 @@ def draw_boxes_from_results(image_path, results):
 
 
 # Load the YOLO model
-initial_model_path = '/home/student/HW1_CV/yolov8n_trained_2.pt'
-model = YOLO(initial_model_path)
+model_path = '/home/student/HW1_CV/yolov8n_ood_pseudo_trained.pt'
+model = YOLO(model_path)
 #model.val(data='pic_data.yaml')
 # Path to the image
 #one_val_pic_path = '/datashare/HW1/labeled_image_data/images/val/e398aed5-frame_2832.jpg'
@@ -100,7 +100,7 @@ def process_and_save_image(frame_name):
     print(f"Annotated image saved to {save_path}")
 
 
-# Example usage
+# Example usage from validation data from vm
 
 process_and_save_image('e398aed5-frame_2832')
 

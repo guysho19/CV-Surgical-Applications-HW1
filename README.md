@@ -10,6 +10,8 @@ Order of files running:
 
 In order to run the files you should be at the path '/home/student/HW1_CV' in the VM 'cvsa2023s-0010'
 I also provided my yaml files in the directory yamls. You can access them akso through the VM in path '/home/student/HW1_CV' with the corresponding yaml file name.
+In addition the picture for predict.py is from the validation set given in the VM in path: '/datashare/HW1/labeled_image_data/images/val/e398aed5-frame_2832.jpg'
+The data for the video.py prediction is in the VM in Paths '/datashare/HW1/ood_video_data/surg_1.mp4', '/datashare/HW1/ood_video_data/4_2_24_A_1.mp4'
 
 ## Setup Instructions
 1. **Navigate to Project Directory:**

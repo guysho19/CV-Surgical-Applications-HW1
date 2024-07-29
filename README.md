@@ -42,5 +42,5 @@ I also provided my yaml files in the directory yamls. You can access them akso t
    python /home/student/HW1_CV/video.py
 
 ## Model weights link:
-[Download best.pt](https://www.dropbox.com/scl/fi/owhe3zy6rouup9x0biocs/best.pt?rlkey=czklru2w1lsvrdtjgm790rh2s&st=1h8d5zds&dl=0)
+[Download best.pt](https://www.dropbox.com/scl/fo/af77n4ey2439dxcb6soj2/AFi6G_BsS3gXGcC-7ZTdALQ?rlkey=3lec3dc5n1yb5zhbs0bxyhfnf&st=ehb2kwdg&dl=0)
 

@@ -1,6 +1,6 @@
 # CV-Surgical-Applications-HW1
 HW1 in the course of Computer Vision Surgical Applications
-Oreder of files running:
+Order of files running:
 1. initial_trained_Yolo.py
 2. create_pseudo_labels_id.py
 3. id_pseudo_training_Yolo.py
@@ -11,4 +11,36 @@ Oreder of files running:
 In order to run the files you should be at the path '/home/student/HW1_CV' in the VM 'cvsa2023s-0010'
 I also provided my yaml files in the directory yamls. You can access them akso through the VM in path '/home/student/HW1_CV' with the corresponding yaml file name.
 
-model weights link: add
+## Setup Instructions
+1. **Navigate to Project Directory:**
+   If you're not already in the project directory, navigate to it:
+   ```bash
+   cd /home/student/HW1_CV
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3. **Run files according to the order above**
+   ```bash
+   #Run the initial training script for YOLO
+   python /home/student/HW1_CV/initial_trained_Yolo.py
+   
+   #Create pseudo labels for ID data
+   python /home/student/HW1_CV/create_pseudo_labels_id.py
+   
+   #Train YOLO with pseudo labels for ID data
+   python /home/student/HW1_CV/id_pseudo_training_Yolo.py
+   
+   #Create pseudo labels for OOD data
+   python /home/student/HW1_CV/create_pseudo_labels_ood.py
+   
+   #Train YOLO with pseudo labels for OOD data
+   python /home/student/HW1_CV/ood_pseudo_training_Yolo.py
+   
+   #Run predictions (use either predict.py or video.py)
+   python /home/student/HW1_CV/predict.py
+   #or
+   python /home/student/HW1_CV/video.py
+
+## Model weights link:
+[Download best.pt](https://www.dropbox.com/scl/fo/af77n4ey2439dxcb6soj2/AFi6G_BsS3gXGcC-7ZTdALQ?rlkey=3lec3dc5n1yb5zhbs0bxyhfnf&st=ehb2kwdg&dl=0)
+

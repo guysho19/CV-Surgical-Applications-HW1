@@ -17,8 +17,9 @@ I also provided my yaml files in the directory yamls. You can access them akso t
    ```bash
    cd /home/student/HW1_CV
 2. **Install Dependencies:**
-    pip install -r requirements.txt
-3. **Run files according to the order above**
+   ```bash
+   pip install -r requirements.txt
+4. **Run files according to the order above**
 
 
 model weights link: add

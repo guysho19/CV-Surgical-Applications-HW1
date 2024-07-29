@@ -20,7 +20,7 @@ I also provided my yaml files in the directory yamls. You can access them akso t
    ```bash
    pip install -r requirements.txt
 3. **Run files according to the order above**
-   \begin{lstlisting}
+   
    ### Run the initial training script for YOLO
    ```bash
    python /home/student/HW1_CV/initial_trained_Yolo.py
@@ -47,7 +47,6 @@ I also provided my yaml files in the directory yamls. You can access them akso t
    ### or
    ```bash
    python /home/student/HW1_CV/video.py
-   \end{lstlisting}
 
 
 ## Model weights link:

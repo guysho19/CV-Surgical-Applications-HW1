@@ -111,8 +111,8 @@ def main():
         '/datashare/HW1/ood_video_data/4_2_24_A_1.mp4'
     ]  # surge1 is a short video for checking
     output_video_dirs = [
-        '/home/student/HW1_CV/ood_data_video1/video',
-        '/home/student/HW1_CV/ood_data_video2/video'
+        '/home/student/HW1_CV/ood_prediction_video1/video',
+        '/home/student/HW1_CV/ood_prediction_video2/video'
     ]
     output_video_files = [
         'output_surg_1.mp4',

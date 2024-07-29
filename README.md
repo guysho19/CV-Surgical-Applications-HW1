@@ -43,4 +43,5 @@ I also provided my yaml files in the directory yamls. You can access them akso t
 
 
 ## Model weights link:
-add
+\href{https://www.dropbox.com/scl/fi/owhe3zy6rouup9x0biocs/best.pt?rlkey=czklru2w1lsvrdtjgm790rh2s&st=1h8d5zds&dl=0}{Download best.pt}
+
